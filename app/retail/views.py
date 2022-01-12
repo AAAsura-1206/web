@@ -87,9 +87,9 @@ def index(request):
         }
     except:
         data_results = {
-            'universe_total_usd': 18874053.680999957,
-            'human_universe_total_usd': "$18.9m",
-            'mau': 161205.0,
+            'universe_total_usd': 2174053.680999957,
+            'human_universe_total_usd': "$2.1m",
+            'mau': 301234.0,
             'bounties_gmv': '3.43m'
         }
     context.update(data_results)

@@ -47,7 +47,7 @@ RUN pip3 install --upgrade pip==20.0.2 setuptools wheel dumb-init pipenv
 
 # Install pip packages
 COPY requirements/ /code/
-RUN pip3 install --upgrade -r test.txt
+RUN pip3 install --upgrade -r /code/test.txt
 
 # Copy over docker-command (start-up script)
 COPY bin/docker-command.bash /bin/docker-command.bash
